@@ -1,0 +1,3 @@
+# Python auto-generated cache — never commit these
+__pycache__/
+*.pyc
