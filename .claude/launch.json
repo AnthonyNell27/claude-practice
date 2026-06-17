@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "employee-directory (Next.js)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:/Users/nidag/Downloads/employee-directory", "run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "project2-frontend (Next.js)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:/Users/nidag/Downloads/project2-employee-directory/frontend", "run", "dev", "--", "--port", "3001"],
+      "port": 3001
+    },
+    {
+      "name": "project2-backend (FastAPI)",
+      "runtimeExecutable": "C:/Users/nidag/Downloads/project2-employee-directory/backend/.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "main:app", "--app-dir", "C:/Users/nidag/Downloads/project2-employee-directory/backend", "--port", "8000"],
+      "port": 8000
+    }
+  ]
+}
