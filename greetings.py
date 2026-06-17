@@ -1,3 +1,6 @@
+"""Practice greetings utilities: greet, total_price, apply_discount."""
+
+
 def greet(names):
     """Return a list of "Hello, <name>!" strings for each name."""
     return [f"Hello, {name}!" for name in names]
